@@ -13,7 +13,7 @@ module NewsHelper
         concat link_to 'Edit', edit_news_path(news)
         concat ' | '
       end
-      concat link_to 'Back', news_path
+      concat link_to 'Back', news_index_path
     end
   end
 end
